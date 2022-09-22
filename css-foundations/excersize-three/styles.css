@@ -1,22 +1,13 @@
-.odd {
-  background-color: #ffc0cb;
-  font-family: Verdana, DejaVu Sans, sans-serif;
+.size-fam {
+  font-size: 28px;
+  font-family: Helvetica, 'Times New Roman', sans-serif;
 }
 
-#two {
-  color: #0000ff;
-  font-size: 36px;
-
+.button1 {
+  background-color: black;
+  color: white;
 }
 
-.cooler {
-
-  font-size: 24px;
+.button2 {
+  background-color: yellow;
 }
-
-#four {
-  background-color: #90ee90;
-  font-weight: bold;
-  font-size: 24px;
-}
-
