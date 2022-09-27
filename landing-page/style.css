@@ -48,3 +48,57 @@ HEADER STYLES
 /*
 AWESOME STYLES
 */
+
+.awesome-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #1F2937;
+  font-family: 'roboto', monospace;
+  flex: 1;
+  padding-top: 100px;
+}
+
+.awesome-container .left-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 600px;
+}
+
+.text-main {
+  display: flex;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.text {
+  display: flex;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.sign-up {
+  height:34px;
+  width: 100px;
+}
+
+.awesome-container .right-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 600px;
+  background-color: darkgray;
+
+}
+
+.awesome-container .right-container .image {
+  color: #F9FAF8;
+}
+
+
+/*
+^ AWESOME STYLES ^
+*/
