@@ -1,3 +1,38 @@
 .heading-container {
+  display: flex;
+  flex-direction: row;
   background-color: #1F2937;
+  font-family: 'roboto', monospace;
+  flex: 1;
+}
+
+.header-logo {
+  margin-right: auto;
+  margin-top: 10px;
+  margin-left: 180px;
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bolder;
+}
+
+.header-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 180px;
+}
+
+.header-link {
+  margin-top: 10px;
+  margin-right: 24px;
+  align-items: center;
+  justify-content: flex-end;
+
+
+}
+
+.header-link a {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
 }
