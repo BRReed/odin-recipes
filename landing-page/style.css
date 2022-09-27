@@ -1,3 +1,7 @@
+/* 
+HEADER STYLES
+*/
+
 .heading-container {
   display: flex;
   flex-direction: row;
@@ -36,3 +40,11 @@
   color: #E5E7EB;
   text-decoration: none;
 }
+
+/*
+^ HEADER STYLES ^
+*/
+
+/*
+AWESOME STYLES
+*/
