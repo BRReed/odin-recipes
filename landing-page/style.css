@@ -169,3 +169,33 @@ RANDOM STYLES
 /*
 ^ RANDOM STYLES ^
 */
+
+/*
+QUOTE STYLES
+*/
+.quote-container {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-container .quote-text {
+  display: flex;
+  height: 150px;
+  width: 900px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-container .quote-attribute {
+  font-size: 24px;
+  font-weight: bolder;
+  padding-left: 700px;
+}
+
+
+/*
+^ QUOTE STYLES ^
+*/
