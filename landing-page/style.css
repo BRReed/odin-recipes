@@ -195,7 +195,62 @@ QUOTE STYLES
   padding-left: 700px;
 }
 
-
 /*
 ^ QUOTE STYLES ^
+*/
+
+/*
+ACTION STYLES
+*/
+
+.action-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.info-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background-color: #3882F6;
+  margin: 100px;
+  height: 100px;
+  width: 1000px;
+  border-radius: 8px;
+}
+
+.info-container .text-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  /* padding-top: 20px; */
+}
+
+.info-container .text-container .call-text {
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.info-container .text-container .sign-text {
+  color: white;
+  font-size: 14px;
+}
+
+.info-container .sign-up-two {
+  border-radius: 8px;
+  border: 2px solid white;
+  margin-left: 250px;
+  color: white;
+  height: 34px;
+  width: 100px;
+  background-color: #3882F6;
+}
+
+
+
+
+/*
+^ ACTION STYLES ^
 */
