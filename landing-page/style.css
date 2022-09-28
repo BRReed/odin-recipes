@@ -1,13 +1,24 @@
+
+
 /*
 MAIN STYLES
 */
+
+
 body {
   margin: 0px;
 }
 
+
+/*
+^ MAIN STYLES ^
+*/
+
+
 /* 
 HEADER STYLES
 */
+
 
 .heading-container {
   display: flex;
@@ -38,8 +49,6 @@ HEADER STYLES
   margin-right: 24px;
   align-items: center;
   justify-content: flex-end;
-
-
 }
 
 .header-link a {
@@ -48,13 +57,16 @@ HEADER STYLES
   text-decoration: none;
 }
 
+
 /*
 ^ HEADER STYLES ^
 */
 
+
 /*
 AWESOME STYLES
 */
+
 
 .awesome-container {
   display: flex;
@@ -103,7 +115,6 @@ AWESOME STYLES
   height: auto;
   width: 600px;
   background-color: darkgray;
-
 }
 
 .awesome-container .right-container .image {
@@ -115,9 +126,12 @@ AWESOME STYLES
 ^ AWESOME STYLES ^
 */
 
+
 /*
 RANDOM STYLES
 */
+
+
 .random-container {
   display: flex;
   flex-direction: column;
@@ -126,8 +140,8 @@ RANDOM STYLES
   font-family: 'roboto', monospace;
   flex: 1;
   padding-top: 100px;
-
 }
+
 .random-container .top-box .random-text {
   color: #1F2937;
   font-size: 36px;
@@ -170,9 +184,13 @@ RANDOM STYLES
 ^ RANDOM STYLES ^
 */
 
+
+
 /*
 QUOTE STYLES
 */
+
+
 .quote-container {
   background-color: #E5E7EB;
   display: flex;
@@ -195,13 +213,16 @@ QUOTE STYLES
   padding-left: 700px;
 }
 
+
 /*
 ^ QUOTE STYLES ^
 */
 
+
 /*
 ACTION STYLES
 */
+
 
 .action-container {
   display: flex;
@@ -224,7 +245,6 @@ ACTION STYLES
   display: flex;
   flex-direction: column;
   padding-left: 100px;
-  /* padding-top: 20px; */
 }
 
 .info-container .text-container .call-text {
@@ -248,13 +268,16 @@ ACTION STYLES
   background-color: #3882F6;
 }
 
+
 /*
 ^ ACTION STYLES ^
 */
 
+
 /*
 COPYRIGHT CONTAINER
 */
+
 
 .copyright-container {
   display: flex;
@@ -267,7 +290,6 @@ COPYRIGHT CONTAINER
 .copyright-container .cr-text {
   color: white;
   font-size: 14px;
-
 }
 
 
