@@ -248,9 +248,29 @@ ACTION STYLES
   background-color: #3882F6;
 }
 
+/*
+^ ACTION STYLES ^
+*/
 
+/*
+COPYRIGHT CONTAINER
+*/
+
+.copyright-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  height: 80px;
+}
+
+.copyright-container .cr-text {
+  color: white;
+  font-size: 14px;
+
+}
 
 
 /*
-^ ACTION STYLES ^
+^ COPYRIGHT CONTAINER ^
 */
