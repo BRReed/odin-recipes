@@ -88,8 +88,11 @@ AWESOME STYLES
 }
 
 .sign-up {
-  height:34px;
+  border-radius: 8px;
+  border:none;
+  height: 34px;
   width: 100px;
+  background-color: #3882F6;
 }
 
 .awesome-container .right-container {
@@ -110,4 +113,59 @@ AWESOME STYLES
 
 /*
 ^ AWESOME STYLES ^
+*/
+
+/*
+RANDOM STYLES
+*/
+.random-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  font-family: 'roboto', monospace;
+  flex: 1;
+  padding-top: 100px;
+
+}
+.random-container .top-box .random-text {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
+  align-content: center;
+}
+
+.random-container .box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box-container .box {
+  display: flex;
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-color: #3882F6;
+  border-radius: 8px;
+}
+
+.random-container .text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.random-container .text-container .box-text {
+  margin-top: 5px;
+  margin-inline: 25px;
+  height: 200px;
+  width: 200px;
+  font-size: 15px;
+}
+
+
+/*
+^ RANDOM STYLES ^
 */
